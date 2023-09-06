@@ -83,7 +83,7 @@ I would try to practice more of mobile first designs. Its easier for me to remem
 
 - [Example resource 1](https://w3schools.com) - This helped me with brushing up on bootstrap. I really liked their quick and to the point pattern of teaching and will use it going forward.
 
-- [Example resource 1](https://codeacademy.com) - This helped me with brushing up on grids. I really liked their handson practice based teaching and will use it going forward.
+- [Example resource 1](https://codeacademy.co) - This helped me with brushing up on grids. I really liked their handson practice based teaching and will use it going forward.
 
 
 ## Author
