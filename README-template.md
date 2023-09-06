@@ -37,10 +37,12 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/DaFlusher/news-homepage-main.git)
+
 
 ## My process
+
+I first built the site using plain  html and CSS, then reproduced it using Bootstrap styling
 
 ### Built with
 
@@ -51,16 +53,10 @@ Users should be able to:
 - Mobile-first workflow
 - Bootstrap - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+
 This challenge made me tinker quite a lot with grid manipulation.
 Prior to now, I was more comfortable with flexbox layouts, grids were on the 'need to know' basis.
 
