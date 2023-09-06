@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+body {
+    margin: 0 auto;
+    font-family: Inter, Helvetica, sans-serif;
+    padding: 0;
+    width: 90%;
+    background-color: hsl(36, 100%, 99%);
+    color: hsl(240, 100%, 5%);
+   
+
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: minmax(60px,auto);
+    grid-gap:1.5rem;
+    gap:2rem;
+    
+}
+
+/*Responsive design....issues profundus*/
+@media screen and (max-width:900px) and (min-width:600px){
+
+    .container{
+        
+        grid-template-areas: 'header''hero' 'title' 'texti' 'sidebar' 'footer';
+        grid-template-columns: fit-content;
+        grid-template-rows: repeat(auto-fit, minmax(100px, auto));
+        column-gap: 20px;
+    }
+    .header{grid-area: header;}
+    .hero{grid-area: hero;}
+    .title{grid-area: title;}
+    .content{grid-area: texti;}
+    .sidebar{grid-area: sidebar;}
+    .footer{grid-area: footer;}
+
+}
+
+header{
+    grid-column: 1/13;
+    grid-row: 1;
+}
+
+.hero{
+    grid-column: 1/9;
+    grid-row: 2/5;
+    
+}
+
+.title{
+    grid-column: 1/5;
+    grid-row: 5/7;
+}
+
+.content{
+    grid-column: 5/9;
+    grid-row: 5/7;
+}
+
+.sidebar{
+    grid-column: 9/13;
+    grid-row: 2/7;
+   
+   
+}
+
+.one, .two, .three{
+    height: 33.33%;
+    border-bottom: 1px solid hsl(36, 100%, 99%);
+
+}
+
+footer{
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+/*styling the header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin:0.5rem 1rem;
+    
+}
+li a{
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+
+li a:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    
+}
+
+/*Styling the hero section and its contents*/
+h1{
+    font-size:3rem ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+button{
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+
+/*styling the side content*/
+.sidebar{
+    background-color: hsl(240, 100%, 5%);
+    margin: 0 ;
+    color: hsl(36, 100%, 99%)
+   
+}
+
+article >h4{
+    padding: 1rem;
+}
+
+article >p{
+    padding: 0.25rem 1rem 0rem 1rem ;
+}
+
+h4 a:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    
+}
+
+.sidebar .new{
+    color: hsl(35, 77%, 62%);
+    background-color:hsl(240, 100%, 5%) ;
+    padding: 0.5rem 1rem;
+}
+
+
+/*styling the footer*/
+
+.flex{
+    display: flex;
+    align-items: start;
+    
+}
+
+.content h4{
+    font-size: 1.5rem;
+    color: hsl(233, 8%, 79%);
+    
+}
+h6,h4{
+    margin: 0;
+    padding: 0.5rem;
+}
+
+h6 a{
+    font-size: 1.0625rem;
+    
+}
+
+p{
+    color: hsl(236, 13%, 42%);
+}
+.flex p{
+    color: hsl(236, 13%, 42%);
+    font-size: 0.9375rem;
+    padding: 0.5rem;
+}
+
