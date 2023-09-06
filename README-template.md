@@ -89,7 +89,7 @@ I would try to practice more of mobile first designs. Its easier for me to remem
 ## Author
 
 - Yet to review my portfolio site. It should be ready soon
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DaFlusher)
+- Frontend Mentor - [@DaFlusher](https://www.frontendmentor.io/profile/DaFlusher)
 - Twitter - [@Joyibe17](https://www.twitter.com/JoyIbe17)
 
 
